@@ -10,21 +10,27 @@
 
 <body>
     <p>This is my body1</p>
-    <p>This is my body2</p>
-    <p>This is my body3</p>
+    <p id="fe">This is my body2</p>
+    <p id="feed">This is my body3</p>
 </body>
 <script src="js/jquery-3.7.1.min.js"></script>
 <script>
-    // console.log($)
-    // $('selector').action()
-    // $('p').click();//click on p
-    $('p').click(function () {
+    // $(document).ready(function () {
+    $(function () {
 
-        console.log("you clicked on p")
-        $(this).hide()
-    }
+        ///your jquery code here
+        // console.log($)
+        // $('selector').action()
+        // $('p').click();//click on p
+        $('p').click(function () {
 
-    )
+            console.log("you clicked on p")
+            // $('#fe').hide()
+        })
+
+    })
+
+
 
 </script>
 
