@@ -43,6 +43,18 @@ $(function () {  //same as above ready
 
 
     //ON METHOD
+    $('p').on({
+
+        click: function () {
+            console.log('you clicked', this)
+        },
+        mouseleave: function () {
+            console.log('you left', this)
+        }
+    })
+    $('#wiki').hide(1000, function () {
+        console.log("hidden");
+    })
 
 
-})
+});
